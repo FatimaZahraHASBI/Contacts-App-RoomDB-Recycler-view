@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/check"
+        android:icon="@drawable/ic_done"
+        android:orderInCategory="100"
+        android:title="check"
+        app:showAsAction="always" />
+
+    <item
+        android:title="options"
+        android:icon="@drawable/ic_more"
+        android:id="@+id/options_icon"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+</menu>
